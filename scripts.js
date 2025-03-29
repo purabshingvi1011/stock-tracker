@@ -1,6 +1,6 @@
 // Replace with your real API keys
-const ALPHA_KEY = "LYJC20A8EY0EIU9I";  // from alpha vantage
-const NEWS_KEY = "dea33c886324fb3e942eaaf9a12bf45e";      // from mediastack
+const ALPHA_KEY = "YOUR_ALPHA_VANTAGE_KEY";  // from alpha vantage
+const NEWS_KEY = "YOUR_MEDIASTACK_KEY";      // from mediastack
 
 // Elements
 const addTickerBtn = document.getElementById("addTickerBtn");
