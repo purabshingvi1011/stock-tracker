@@ -80,18 +80,6 @@ const NEWS_KEY = "YOUR_MEDIASTACK_KEY";
 
 ---
 
-## 📸 Screenshots
-
-_Add your screenshots here by dragging them into the repo._
-
----
-
-## 📚 License
-
-MIT License – Feel free to remix, extend, and use!
-
----
-
 ## 👤 Author
 
 Purab Shingvi  
