@@ -1,0 +1,26 @@
+# Python Byte-Compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment Folders
+venv/
+.venv/
+
+# Environment / Secret Files
+.env
+*.env
+
+# MacOS metadata
+.DS_Store
+
+# Windows Thumbnails
+Thumbs.db
+
+# Coverage / Testing / Tools
+.mypy_cache/
+pytest_cache/
+.coverage
+coverage/
+htmlcov/
+.tox/

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Home - Mega Stock Viewer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- NAV BAR -->
+  <header>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="market-news.html">Market News</a></li>
+        <li><a href="investing-tips.html">Investing Tips</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <img src="images/hero.jpg" alt="Stock Hero" />
+    <h1 class="hero-title">Mega Stock Viewer</h1>
+  </section>
+
+  <!-- MAIN CONTENT: STOCK VIEWER -->
+  <main class="container">
+    <h2>Track Your Favorite Stocks</h2>
+    <p>Add tickers to your watchlist and see charts + relevant news.</p>
+
+    <div class="watchlist-section">
+      <div class="watchlist-input">
+        <input type="text" id="tickerInput" placeholder="Enter Ticker (e.g. AAPL)" />
+        <button id="addTickerBtn">Add to Watchlist</button>
+      </div>
+      <div class="watchlist" id="watchlist"></div>
+    </div>
+
+    <div class="stock-display">
+      <div class="stock-card" id="stockCard">
+        <h3 id="stockTitle">No ticker selected yet</h3>
+        <div class="stock-info" id="stockInfo"></div>
+        <div class="chart-container">
+          <canvas id="stockChart"></canvas>
+        </div>
+      </div>
+      <div class="news-section">
+        <h3>Latest News</h3>
+        <ul id="newsList"></ul>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>2025 <strong>Purab Shingvi</strong> - Student, UMN</p>
+    <p>
+      <a href="https://www.linkedin.com/in/purab-shingvi-135903293/" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/purabshingvi1011" target="_blank">GitHub</a> |
+    </p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
